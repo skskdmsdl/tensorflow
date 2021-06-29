@@ -31,14 +31,14 @@
 
 ### 1.3 Types of supervised learning
 
-**1️⃣ regression**
+**1️⃣ 회귀(regression)**
 
 Predicting final exam score based on time spent
 
-**2️⃣ binary classification**
+**2️⃣ 이진 분류(binary classification)**
 
 Pass/non-pass based on time spent
 
-**3️⃣ multi-label classification**
+**3️⃣ 다중 라벨 분류(multi-label classification)**
 
 Letter grade (A, B, C, E and F) based on time spent
