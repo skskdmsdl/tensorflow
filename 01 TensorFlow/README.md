@@ -18,16 +18,28 @@ TenorFlow에서 계산은 **데이터 흐름 그래프(dataflow graph)**로 이�
 
 ### 1.3 Installing TensorFlow
 
-1.3.0 파이썬 설치
+**1.3.0 파이썬 설치**
 
-1.3.1 아나콘다 설치
+**1.3.1 아나콘다 설치**
 
-Linux, Max OSX, Windows에서 TensorFlow를 설치하기 위해 터미널을 관리자 권한으로 실행시켜 아래의 명령어를 입력한다.
+본인의 OS에 맞게 다운로드(https://www.anaconda.com/products/individual#download-section)한다.
 
- 👉 (sudo -H) pip install —upgrade tensorflow
+**1.3.2 텐서플로우 설치**
 
- 👉 (sudo -H) pip install —upgrade tensorflow-gpu
+TensorFlow를 설치하기 위해 아나콘다를 관리자 권한으로 실행시켜 아래의 명령어를 입력한다.
 
-From source
+- tensorflow 설치할 가상환경 구성
 
-👉 bazel
+   👉 conda create -n "가상환경 명" python="파이썬버전"
+
+- 가상환경 접속
+
+   👉 conda activate "가상환경 명"
+
+- tensorflow 다운로드
+
+   👉 pip install tensorflow
+
+혹은 source로 설치하기
+
+👉 bazel
