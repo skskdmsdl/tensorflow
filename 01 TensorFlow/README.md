@@ -16,15 +16,27 @@ TenorFlow에서 계산은 **데이터 흐름 그래프(dataflow graph)**로 이�
 
 따라서, 딥러닝에서 데이터를 의미하는 **Tensor** 와 DataFlow Graph를 따라 연산이 수행되는 형태(**Flow**)를 합쳐 **TensorFlow** 란 이름이 나오게 되었다.
 
-### 1.3 Installing TensorFlow
+### 1.3 TensorFlow 특징
 
-**1.3.0 파이썬 설치**
+코드 수정 없이 CPU/GPU모드로 동작한다.
 
-**1.3.1 아나콘다 설치**
+아이디어 테스트에서 서비스 단계까지 이용 가능하다.
+
+분산(distributed) 실행환경이 가능하다.
+
+계산 구조와 목표 함수만 정의하면 자동으로 미분 계산을 처리한다.
+
+Python/C++를 지원하며, SWIG를 통해 다양한 언어 지원이 가능하다.
+
+### 1.4 Installing TensorFlow
+
+**1.4.0 파이썬 설치**
+
+**1.4.1 아나콘다 설치**
 
 본인의 OS에 맞게 다운로드(https://www.anaconda.com/products/individual#download-section)한다.
 
-**1.3.2 텐서플로우 설치**
+**1.4.2 텐서플로우 설치**
 
 TensorFlow를 설치하기 위해 아나콘다를 관리자 권한으로 실행시켜 아래의 명령어를 입력한다.
 
